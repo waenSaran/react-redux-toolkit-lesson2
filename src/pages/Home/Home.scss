@@ -1,0 +1,18 @@
+.movies-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    h1{
+        margin: 1rem 0 0 0;
+    }
+
+    input[type="text"] {
+        width: 50%;
+        margin: 1rem auto;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+}
